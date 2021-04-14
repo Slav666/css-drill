@@ -106,7 +106,81 @@ body {
     padding: 0;
 }
 .plan__feature li{
-margin: 8px 0
+    margin: 8px 0
+}
+/* .plan__title {
+
+}
+.plan__price {
+
+} */
+.button {
+    background: #3399ff;
+    color: white;
+    font: inherit;
+    border: 2px solid blue;
+    padding: 8px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: white;
+    color: #3399ff;
+}
+#key-features {
+    background: #3399ff;
+    margin-top: 40px;
+    text-align: center;
+}
+#key-features .section-title { 
+    color: white
+}
+.key-feature__list {
+    margin: 0;
+    padding: 0
+}
+.key-feature {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+}
+.key-feature__description {
+   color: white;
+   text-align: center; 
+   font-weight: bold;
+   font-size: 20px
+}
+.key-feature__image {
+    background: #ff3399;
+    width: 128px;
+    height: 128px;
+    border: 2px solid gray;
+    border-radius: 50%;
+    margin: auto
+}
+.main-footer {
+    background: black;
+    margin-top: 48px;
+    padding: 32px;
+}
+.main-footer__links {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.main-footer__link {
+    display: inline-block;
+    margin: 0 16px
+}
+.main-footer__link > a {
+color: white;
+text-decoration: none;
+}
+.main-footer__link a:hover,
+.main-footer__link a:active {
+    color: gray;
 }
 /* h1 {
     font-family: sans-serif;
